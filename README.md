@@ -9,7 +9,7 @@ B.tech final year project .
 -	Abhijith J
 
 ## Guide :
-## Aswathy Wilson
+ Aswathy Wilson
 
 ## Problem Statement :
 Kerala’s emergency medical services hold immense promise but operate without advanced machine learning and IoT capabilities, leading to critical delays and suboptimal coordination. Today’s system relies on manual calls, siloed data, and static routing, which:
@@ -20,7 +20,7 @@ Kerala’s emergency medical services hold immense promise but operate without a
 
 ## Solution :
 EMSYNC (EMsync: Emergency Coordination Hub) is an integrated digital platform designed to modernize and streamline emergency healthcare in India. Its main goal is to eliminate delays, miscommunication, and resource wastage during medical emergencies. EMSYNC aims to ensure every critically ill patient gets the right care, in the right place, as quickly as possible.
-## Core Objectives:
+Core Objectives:
 - Prediction of emergency severity using AI/ML models
 - Booking of Emergency Services for smarter resource allocation
 - Smart, automated ambulance routing based on traffic .
