@@ -1,0 +1,13 @@
+Dataset shape BEFORE cleaning: (407225, 21)
+
+heartrate_median: kept values in [20, 250], removed 0 rows
+resprate_median: kept values in [5, 60], removed 0 rows
+o2sat_median: kept values in [50, 100], removed 0 rows
+temperature_median: kept values in [25, 45], removed 0 rows
+sbp_median: kept values in [50, 250], removed 0 rows
+dbp_median: kept values in [30, 150], removed 0 rows
+pain_median: kept values in [0, 10], removed 0 rows
+
+Dataset shape AFTER cleaning: (407225, 21)
+
+✅ Cleaned dataset saved as features_mimic_ed_clean.csv

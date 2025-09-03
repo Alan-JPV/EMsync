@@ -1,0 +1,32 @@
+Cleaning Report for features_mimic_ed.csv
+==================================================
+
+NaN values before cleaning:
+temperature           23415
+heartrate             17090
+resprate              20353
+o2sat                 20596
+sbp                   18291
+dbp                   19091
+heartrate_median      18438
+heartrate_min         18438
+heartrate_max         18438
+resprate_median       18923
+o2sat_median          29092
+o2sat_min             29092
+temperature_median    26038
+sbp_median            18677
+dbp_median            18677
+pain_median           55391
+dtype: int64
+
+Irregular values before cleaning:
+heartrate_median: Below 30: 63, Above 220: 1
+resprate_median: Below 5: 9, Above 50: 40
+o2sat_median: Below 50: 82, Above 100: 9
+temperature_median: Below 30: 918, Above 43: 32
+sbp_median: Below 50: 139, Above 250: 2
+dbp_median: Below 30: 60, Above 150: 227
+pain_median: Below 0: 0, Above 10: 10
+
+Final dataset shape: (407225, 21)
