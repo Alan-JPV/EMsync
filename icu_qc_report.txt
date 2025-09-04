@@ -1,0 +1,70 @@
+Dataset: icu_interventions.csv
+Rows: 94458
+Columns: 39
+
+Column types:
+stay_id                                                    int64
+mean_hr                                                  float64
+mean_mbp                                                 float64
+mean_spo2                                                float64
+mean_temp_c                                              float64
+min_hr                                                   float64
+min_mbp                                                  float64
+min_spo2                                                 float64
+min_temp_c                                               float64
+max_hr                                                   float64
+max_mbp                                                  float64
+max_spo2                                                 float64
+max_temp_c                                               float64
+antibiotics                                              float64
+sedatives                                                float64
+opioids                                                  float64
+fluids_total                                             float64
+unit_Cardiac Vascular Intensive Care Unit (CVICU)           bool
+unit_Coronary Care Unit (CCU)                               bool
+unit_Intensive Care Unit (ICU)                              bool
+unit_Med/Surg                                               bool
+unit_Medical Intensive Care Unit (MICU)                     bool
+unit_Medical/Surgical Intensive Care Unit (MICU/SICU)       bool
+unit_Medicine                                               bool
+unit_Medicine/Cardiology Intermediate                       bool
+unit_Neuro Intermediate                                     bool
+unit_Neuro Stepdown                                         bool
+unit_Neuro Surgical Intensive Care Unit (Neuro SICU)        bool
+unit_Neurology                                              bool
+unit_PACU                                                   bool
+unit_Surgery/Trauma                                         bool
+unit_Surgery/Vascular/Intermediate                          bool
+unit_Surgical Intensive Care Unit (SICU)                    bool
+unit_Trauma SICU (TSICU)                                    bool
+unit_<NA>                                                   bool
+vasopressors_needed                                        int64
+transfusion_needed                                         int64
+dialysis_needed                                            int64
+ventilation_needed                                         int64
+dtype: object
+
+Missing values per column:
+mean_hr          1369
+mean_mbp        94454
+mean_spo2        1249
+mean_temp_c      3669
+min_hr           1369
+min_mbp         94454
+min_spo2         1249
+min_temp_c       3669
+max_hr           1369
+max_mbp         94454
+max_spo2         1249
+max_temp_c       3669
+antibiotics       607
+sedatives         607
+opioids           607
+fluids_total    13492
+dtype: int64
+
+⚠️ Columns with >50% missing values:
+mean_mbp    99.995765
+min_mbp     99.995765
+max_mbp     99.995765
+dtype: float64
