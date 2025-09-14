@@ -1,0 +1,51 @@
+Dataset: icu_interventions.csv
+Rows: 94458
+Columns: 21
+
+Column types:
+hadm_id                  int64
+stay_id                  int64
+mean_dbp               float64
+mean_hr                float64
+mean_sbp               float64
+mean_spo2              float64
+mean_temp_c            float64
+min_dbp                float64
+min_hr                 float64
+min_sbp                float64
+min_spo2               float64
+min_temp_c             float64
+max_dbp                float64
+max_hr                 float64
+max_sbp                float64
+max_spo2               float64
+max_temp_c             float64
+ventilation_needed       int64
+vasopressors_needed      int64
+transfusion_needed       int64
+dialysis_needed          int64
+dtype: object
+
+Missing values per column:
+mean_dbp         125
+mean_hr           20
+mean_sbp         122
+mean_spo2         71
+mean_temp_c    84585
+min_dbp          125
+min_hr            20
+min_sbp          122
+min_spo2          71
+min_temp_c     84585
+max_dbp          125
+max_hr            20
+max_sbp          122
+max_spo2          71
+max_temp_c     84585
+dtype: int64
+
+⚠️ Columns with >50% missing values:
+mean_temp_c    89.547736
+min_temp_c     89.547736
+max_temp_c     89.547736
+dtype: float64
