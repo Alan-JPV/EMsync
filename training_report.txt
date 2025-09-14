@@ -1,0 +1,19 @@
+MEDICAL ML MODEL TRAINING REPORT
+==================================================
+
+Best Model: XGBoost
+
+Random Forest:
+  Accuracy: 0.8972
+  Balanced Accuracy: 0.5091
+  Macro-F1: 0.5235
+
+XGBoost:
+  Accuracy: 0.6682
+  Balanced Accuracy: 0.7057
+  Macro-F1: 0.5441
+
+Artifacts:
+ - best_model_20250912_160754.pkl
+ - label_map.pkl
+ - confusion_matrix_[model].png
