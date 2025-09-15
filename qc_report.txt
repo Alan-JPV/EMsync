@@ -1,0 +1,76 @@
+Quality Check Report for: icu_interventions_all.csv
+==================================================
+
+Shape: 94458 rows, 28 columns
+
+Column Data Types:
+subject_id               int64
+hadm_id                  int64
+stay_id                  int64
+first_careunit          object
+last_careunit           object
+intime                  object
+outtime                 object
+los                    float64
+mean_dbp               float64
+mean_hr                float64
+mean_sbp               float64
+mean_spo2              float64
+mean_temp_c            float64
+min_dbp                float64
+min_hr                 float64
+min_sbp                float64
+min_spo2               float64
+min_temp_c             float64
+max_dbp                float64
+max_hr                 float64
+max_sbp                float64
+max_spo2               float64
+max_temp_c             float64
+ventilation_needed       int64
+vasopressors_needed      int64
+dialysis_needed          int64
+sedatives_needed         int64
+opioids_needed           int64
+dtype: object
+
+Missing Values per Column (Count):
+mean_temp_c    84585
+max_temp_c     84585
+min_temp_c     84585
+min_dbp          125
+mean_dbp         125
+max_dbp          125
+max_sbp          122
+min_sbp          122
+mean_sbp         122
+max_spo2          71
+min_spo2          71
+mean_spo2         71
+mean_hr           20
+max_hr            20
+min_hr            20
+outtime           14
+los               14
+dtype: int64
+
+Missing Values per Column (Percentage):
+mean_temp_c    89.55
+max_temp_c     89.55
+min_temp_c     89.55
+min_dbp         0.13
+mean_dbp        0.13
+max_dbp         0.13
+max_sbp         0.13
+min_sbp         0.13
+mean_sbp        0.13
+max_spo2        0.08
+min_spo2        0.08
+mean_spo2       0.08
+mean_hr         0.02
+max_hr          0.02
+min_hr          0.02
+outtime         0.01
+los             0.01
+dtype: float64%
+
