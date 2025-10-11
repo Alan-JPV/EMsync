@@ -1,0 +1,182 @@
+{
+    "bbox": [
+        76.274726,
+        10.043322,
+        76.305725,
+        10.081783
+    ],
+    "routes": [
+        {
+            "summary": {
+                "distance": 7983.0,
+                "duration": 656.2
+            },
+            "segments": [
+                {
+                    "distance": 7983.0,
+                    "duration": 656.2,
+                    "steps": [
+                        {
+                            "distance": 58.5,
+                            "duration": 14.0,
+                            "type": 11,
+                            "instruction": "Head north",
+                            "name": "-",
+                            "way_points": [
+                                0,
+                                2
+                            ]
+                        },
+                        {
+                            "distance": 263.8,
+                            "duration": 63.3,
+                            "type": 0,
+                            "instruction": "Turn left",
+                            "name": "-",
+                            "way_points": [
+                                2,
+                                9
+                            ]
+                        },
+                        {
+                            "distance": 496.8,
+                            "duration": 59.6,
+                            "type": 0,
+                            "instruction": "Turn left",
+                            "name": "-",
+                            "way_points": [
+                                9,
+                                22
+                            ]
+                        },
+                        {
+                            "distance": 313.6,
+                            "duration": 25.1,
+                            "type": 5,
+                            "instruction": "Turn slight right",
+                            "name": "-",
+                            "way_points": [
+                                22,
+                                30
+                            ]
+                        },
+                        {
+                            "distance": 4866.1,
+                            "duration": 307.6,
+                            "type": 2,
+                            "instruction": "Turn sharp left onto Kodungallur-Paravur-Ernakulam Highway, NH66",
+                            "name": "Kodungallur-Paravur-Ernakulam Highway, NH66",
+                            "way_points": [
+                                30,
+                                79
+                            ]
+                        },
+                        {
+                            "distance": 1512.3,
+                            "duration": 101.4,
+                            "type": 0,
+                            "instruction": "Turn left",
+                            "name": "-",
+                            "way_points": [
+                                79,
+                                103
+                            ]
+                        },
+                        {
+                            "distance": 107.2,
+                            "duration": 12.9,
+                            "type": 1,
+                            "instruction": "Turn right",
+                            "name": "-",
+                            "way_points": [
+                                103,
+                                104
+                            ]
+                        },
+                        {
+                            "distance": 72.2,
+                            "duration": 8.7,
+                            "type": 1,
+                            "instruction": "Turn right",
+                            "name": "-",
+                            "way_points": [
+                                104,
+                                106
+                            ]
+                        },
+                        {
+                            "distance": 224.2,
+                            "duration": 53.8,
+                            "type": 0,
+                            "instruction": "Turn left",
+                            "name": "-",
+                            "way_points": [
+                                106,
+                                111
+                            ]
+                        },
+                        {
+                            "distance": 68.1,
+                            "duration": 9.8,
+                            "type": 1,
+                            "instruction": "Turn right",
+                            "name": "-",
+                            "way_points": [
+                                111,
+                                114
+                            ]
+                        },
+                        {
+                            "distance": 0.0,
+                            "duration": 0.0,
+                            "type": 10,
+                            "instruction": "Arrive at your destination, on the right",
+                            "name": "-",
+                            "way_points": [
+                                114,
+                                114
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "bbox": [
+                76.274726,
+                10.043322,
+                76.305725,
+                10.081783
+            ],
+            "geometry": "a_p|@}zqpMmA^S@TbB@v@Mp@p@R?h@TTcAzBh@x@LJ^J`AR`@ZtAlAnA`AxAtDz@DpB?JHHLH\\IVQvCAfAiAzAAJ?l@PpBLV\\c@hEsFnFeGnEiFbEwEpMaOdMeOxDqE\\a@bA}@z@k@t@]v@[`AYb@If@KpKaAnD_@pCc@pBg@vB}@tAu@@ATKj@[r@YrB{@xAu@~J}ErC_BnEkBdH{Bx@YnEuAfBg@HEbKcD|Bu@nBm@lAi@dGgE`Au@hA{@ROrB{AnBuArF{DnCmAvD}A{CwGeB}DkBwDsAaAiAg@UKiBQU?sCK}BIyAAw@YsAo@m@Ww@MwATq@\\iB|@cB|@w@b@m@H_DIwBE}EEu@{DdAOt@SAmADkB?q@CkC?_@X?t@Gh@?",
+            "way_points": [
+                0,
+                114
+            ]
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1760168321101,
+        "query": {
+            "coordinates": [
+                [
+                    76.2828,
+                    10.0815
+                ],
+                [
+                    76.3053,
+                    10.0535
+                ]
+            ],
+            "profile": "driving-car",
+            "profileName": "driving-car",
+            "format": "json"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-10-05T11:13:35Z",
+            "osm_date": "2025-09-29T00:00:01Z"
+        }
+    }
+}

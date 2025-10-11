@@ -1,0 +1,16 @@
+# Ignore Streamlit's secrets file
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Node / React inside backend
+frontend/node_modules/
+frontend/build/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
